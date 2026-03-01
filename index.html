@@ -170,12 +170,52 @@ p{
     } 
     html{
   scroll-behavior:smooth;
+    } 
+    body{
+  background: linear-gradient(135deg, #0f172a, #1e293b, #0f172a);
+  color:white;
+  text-align:center;
+  margin:0;
+  font-family: 'Segoe UI', sans-serif;
+    }
+    h1{
+  letter-spacing:2px;
+}
+
+.card{
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 15px 35px rgba(0,0,0,0.5);
+}
+
+.btn{
+  transition:0.3s;
+}
+
+.btn:hover{
+  transform:scale(1.1);
+      }
+    .card{
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 40px;
+  margin: 40px 0;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  transition: 0.3s;
+}
+
+.card:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.6);
     }
 </style>
 </head>
 
 <body>
-background: linear-gradient(135deg, #0f172a, #1e293b, #0f172a);
     <header> 
         <img src="photo.jpg" alt="Selim Sheikh">
   <h1>Selim Sheikh</h1>
@@ -199,13 +239,24 @@ background: linear-gradient(135deg, #0f172a, #1e293b, #0f172a);
 আমার লক্ষ্য হলো ডিজিটাল নিরাপত্তা সচেতনতা বৃদ্ধি করা।
 </p>
   </section>
-    
     <h2>My Skills</h2>
 
     <div class="card">Penetration Testing</div>
     <div class="card">Network Security</div>
     <div class="card">Vulnerability Assessment</div>
 </section>
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="card">
+    <h3>Website Security Audit</h3>
+    <p>একটি ই-কমার্স ওয়েবসাইটে ২৫+ Vulnerability খুঁজে রিপোর্ট করেছি।</p>
+  </div>
+
+  <div class="card">
+    <h3>Network Penetration Test</h3>
+    <p>SME কোম্পানির নেটওয়ার্ক সিকিউরিটি টেস্টিং করেছি।</p>
+  </div>
 
 <section>
     <h2>Contact Information</h2>
